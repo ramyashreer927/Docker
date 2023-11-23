@@ -10,9 +10,7 @@ RUN apt-get update && apt-get install -y openjdk-11-jdk && apt-get install -y wg
 
 WORKDIR /apache-tomcat-9.0.50
 
-COPY /var/lib/jenkins/workspace/Amazon.war webapps/
 
-EXPOSE 8080
 
 
 
